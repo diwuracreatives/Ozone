@@ -1,0 +1,165 @@
+
+body{
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+     background-color: #fafdfd;
+  }
+html,
+body,
+header
+{
+   color: #356857
+}
+.navbar-brand{
+  color: #356857;
+  font-weight: bold;
+}
+.nav-link{
+  color: #356857;
+  font-weight: 500;
+}
+.btn{
+  background-color: #356857;
+  border: none;
+}
+
+.btn:hover{
+    background: #182c25;
+    color: #fff;
+}
+ #intro {
+    background: url('./images/familysheer.jpg');
+    background-size: cover;
+   background-repeat: no-repeat;
+   margin-top: 12px;
+   height: 500px;
+   color: white;
+}
+#intro-text{
+  font-size: 13px;
+}
+.form-control{
+   padding: 16px;
+   color: #356857;
+}
+#btn-find-out{
+  font-size: 19px;
+}
+.point-one{
+  display: flex;
+  flex-direction: column;
+}
+.point-item{
+  display: flex;
+  flex-direction: column;
+}
+.image-container {
+   width: 300px;
+   height: 350px;
+   background-image: url(./images/father3.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 12px;
+  
+  }
+.why-us{
+  background-color: #E4EEED;
+}
+contact-image{
+  width: 400px;
+  height: 450px;
+  background-image: url(./images/bussiness.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+.btn-find-out{
+  color: #182c25;
+}
+#service-box{
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+}
+#service-box.tp-transform {
+  transition-property: transform;
+}
+
+#service-box:is(:hover, :focus) {
+  transform: scale(0.8);
+}
+
+#count-box{
+  background-color: #fff;
+  transition-property: box-shadow, transform;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+
+}
+#count-box:hover{
+  background-color: #E4EEED;
+}
+#count-box:is(:hover, :focus){
+  box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+}
+.after-text{
+  color: rgba(247,145,51,1);
+  font-weight: 500;
+  font-size: 16px;
+}
+.footer{
+  background-color: #182c25;
+}
+.foot-brand{
+  font-weight: bold;
+  font-size: 19px;
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.foot-item{
+  list-style: none;
+}
+.foot-link{
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+.foot-group{
+  font-size: 17px;
+  color: rgb(175, 175, 175);
+}
+.social-item{
+  list-style: none;
+ display: inline-block;
+ margin-right: 10px;
+}
+.lang-btn{
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 12px;
+}
+.foot-extra{
+  display: flex;
+  font-size: 13px;
+  color: #fff;
+}
+.worth-text{
+   color: rgba(247,145,51,1);
+}
+@media screen and (max-width: 728px) {
+  .navbar{
+    background-color: #fff;
+  }
+  .image-container {
+    width: 500px;
+    height: 500px;
+    background-image: url(./images/father3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+   }
+}
